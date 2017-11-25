@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+            </div>
+        </div>
+    </nav>
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -49,7 +64,7 @@
     </div>
     <div class="container">
         <div class="card-deck">
-            <div class="card">
+            <div id= "programming" class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Programming</h4>
@@ -57,7 +72,7 @@
                     <p class="card-text"><small class="text-muted">Last updated 30 mins ago</small></p>
                 </div>
             </div>
-            <div class="card">
+            <div id= "Reading" class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Reading</h4>
@@ -65,7 +80,7 @@
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="card">
+            <div id= "Other" class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Other</h4>
@@ -74,19 +89,25 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-header">
-                More about me
-            </div>
-            <div class="card-body">
-                <h4 class="card-title">Higher Education</h4>
-                <p class="card-text">MSc Software Engineering, Queen Mary, University of London</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+        
 
     </div>
-    <h1>Hello, world!</h1>
+    <div class="card">
+        <div class="card-header">
+            Education
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Higher Education</h4>
+            <p class="card-text">MSc Software Engineering, Queen Mary, University of London</p>
+            <a href="#" class="btn btn-primary">QMUL</a>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">School</h4>
+            <p class="card-text">Chittagong University School and College, Bangladesh</p>
+            <a href="#" class="btn btn-primary">CU</a>
+        </div>
+    </div>
+    <h1><Farhad Islam </h1>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
